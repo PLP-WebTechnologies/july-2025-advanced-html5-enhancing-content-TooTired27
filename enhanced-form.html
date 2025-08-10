@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+      <section>
+        <h1>Baking Land</h1>
+        <img src="media/pexels-elly-fairytale-3807313.jpg" alt="image of a woman baking" width="300" height="200">
+        <h2>Baking To-Do List</h2>
+        <ol>
+            <li>Gather Ingredients
+                <ul>
+                    <li>Flour</li>
+                    <li>Sugar</li>
+                    <li>Butter</li>
+                    <li>Eggs</li>
+                </ul>
+            </li>
+            <li>
+                Prepare Batter
+                <ul>
+                    <li>Mix dry ingredients</li>
+                    <li>Add wet ingredients</li>
+                    <li>Stir until smooth</li>
+                </ul>
+            </li>
+            <li>Bake and serve
+                <ul>
+                    <li>Preheat oven</li>
+                    <li>Pour into pan</li>
+                    <li>Cool before serving</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Recipe Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Recipe name</th>
+                    <th>Main ingredients</th>
+                    <th>Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolate chip cookies</td>
+                    <td>flour, sugar, butter, eggs, chocolate chips</td>
+                    <td>Easy</td>
+                </tr>
+                <tr>
+                    <td>Banana bread</td>
+                    <td>flour, sugar, butter, eggs, bananas, baking soda</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>Apple pie</td>
+                    <td>apples,sugar, cinnamon, pastry dough</td>
+                    <td>Hard</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Making </h2>
+        <video controls width="600" height="400" poster>
+            <source src="media/66-135732262_small.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Watch delicious cookies in the oven!</p>
+        <h2>Have a good listen while baking</h2>
+        <audio controls autoplay >
+            <source src="media/watermelon-original-lyrics-325839.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            <p>Enjoy the music while you bake!</p>
+        </audio>
+      </section>
+      <section>
+        <h2>Let's hear from You</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name" placeholder="Enter your name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="bob@somewhere.com" required>
+                <br>
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+            </fieldset>
+            
+            <br>
+            <label for="message">Recipe you want to share:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write the recipe here..." required></textarea>
+            <br>
+            <button type="submit">Send</button>
+      </section>
+    </body>
+</html>
